@@ -31,7 +31,7 @@ subprojects {
       // Set the directory containing the example implementation as the default source set. Default
       // compile tasks will now run against this source set.
       main {
-        java.srcDirs = ["src/example/java"]
+        java.srcDirs = ["src/example/java", ".meta/src/reference/java"]
       }
 
       // Define a custom source set named "starterSource" that points to the starter implementations
